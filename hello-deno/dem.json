@@ -1,0 +1,23 @@
+{
+  "modules": [
+    {
+      "protocol": "https",
+      "path": "deno.land/std/http/server.ts",
+      "version": "",
+      "files": []
+    },
+    {
+      "protocol": "https",
+      "path": "deno.land/std/uuid/mod.ts",
+      "version": "",
+      "files": []
+    },
+    {
+      "protocol": "https",
+      "path": "deno.land/std/ws/mod.ts",
+      "version": "",
+      "files": []
+    }
+  ],
+  "aliases": {}
+}
