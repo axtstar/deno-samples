@@ -11,7 +11,7 @@ listenAndServe( {port: 3030} ,async (req) => {
       headers: new Headers({
         "content-type": "text/html",
       }),
-      body: await Deno.open("./public/index.html"),
+      body: await open("./public/index.html"),
     });
   }
 
@@ -21,7 +21,7 @@ listenAndServe( {port: 3030} ,async (req) => {
       headers: new Headers({
         "content-type": "application/javascript",
       }),
-      body: await Deno.open("./public/index.js"),
+      body: await open("./public/index.js"),
     });
   }
 
@@ -31,7 +31,7 @@ listenAndServe( {port: 3030} ,async (req) => {
       headers: new Headers({
         "content-type": "text/html",
       }),
-      body: await Deno.open("./public/chat.html"),
+      body: await open("./public/chat.html"),
     });
   }
 
