@@ -48,4 +48,4 @@ listenAndServe( {port: 3030} ,async (req) => {
   }  
 });
 
-console.log("Server running on localhost:3030");
+console.log("Server running on http://localhost:3030");
